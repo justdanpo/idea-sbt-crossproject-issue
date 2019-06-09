@@ -4,7 +4,7 @@ lazy val client = project.in(file("client")).
     name := "test",
 
     libraryDependencies ++= Seq(
-      "org.scala-js" %%% "scalajs-dom" % "0.9.3"
+      "org.scala-js" %%% "scalajs-dom" % "0.9.7"
     )
 
   ).enablePlugins(ScalaJSPlugin)
